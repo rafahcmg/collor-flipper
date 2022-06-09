@@ -3,7 +3,7 @@ const getRandomNumber = () => {
 }
 
 const getHsl = () => {
-    let h = getRandomNumber()
+    let h = Math.floor(Math.random() * 360)
     let s = `${getRandomNumber()}%`
     let l = `${getRandomNumber()}%`
     return hslNum = [h, s, l]
